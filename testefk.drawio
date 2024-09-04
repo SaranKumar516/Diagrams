@@ -1,9 +1,21 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.10">
   <diagram name="Page-1" id="aDdvw68mQtSOPQEoPsBM">
-    <mxGraphModel>
+    <mxGraphModel dx="1562" dy="845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="u9maJqtHcp-LSA5aVxg7-6" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://gg-cms-admin-prd.s3.eu-west-1.amazonaws.com/iocms/efk_bd2e409195.jpg;clipPath=inset(4.22% 0.67% 6.44% 0%);shadow=1;imageBackground=none;imageBorder=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="200" width="331.5" height="223.59" as="geometry" />
+        </mxCell>
+        <mxCell id="u9maJqtHcp-LSA5aVxg7-7" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="200" width="330" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="u9maJqtHcp-LSA5aVxg7-4" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/v2/resize:fit:1400/1*vZDu4Bwj2GxQh8t1IjDq4w.png;sketch=1;curveFitting=1;jiggle=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="63.83" y="264.68000000000006" width="312.35" height="110.63" as="geometry" />
+        </mxCell>
+        <mxCell id="u9maJqtHcp-LSA5aVxg7-8" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;strokeColor=#787878;sketch=1;curveFitting=1;jiggle=2;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="290" width="100" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
