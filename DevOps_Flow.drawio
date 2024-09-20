@@ -1,0 +1,163 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.12">
+  <diagram name="Page-1" id="GzIINDLIAl3letVaOaPU">
+    <mxGraphModel dx="934" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="b3AwJft3Pq5Io8BSkl0d-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="570" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="b3AwJft3Pq5Io8BSkl0d-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b3AwJft3Pq5Io8BSkl0d-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b3AwJft3Pq5Io8BSkl0d-1" value="Application &amp;gt; Client&lt;div&gt;Client wants to add a new feature&lt;/div&gt;&lt;div&gt;Jira ticket is created with the requirements&amp;nbsp;&lt;/div&gt;&lt;div&gt;Developer takes the ticket and works on it&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="570" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="b3AwJft3Pq5Io8BSkl0d-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b3AwJft3Pq5Io8BSkl0d-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b3AwJft3Pq5Io8BSkl0d-3" value="Ticket raised in JIRA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b3AwJft3Pq5Io8BSkl0d-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b3AwJft3Pq5Io8BSkl0d-5" target="b3AwJft3Pq5Io8BSkl0d-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b3AwJft3Pq5Io8BSkl0d-5" value="Developer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b3AwJft3Pq5Io8BSkl0d-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b3AwJft3Pq5Io8BSkl0d-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b3AwJft3Pq5Io8BSkl0d-7" value="GitHub" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b3AwJft3Pq5Io8BSkl0d-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b3AwJft3Pq5Io8BSkl0d-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b3AwJft3Pq5Io8BSkl0d-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b3AwJft3Pq5Io8BSkl0d-11" target="b3AwJft3Pq5Io8BSkl0d-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300.0000000000002" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b3AwJft3Pq5Io8BSkl0d-11" value="Jenkins / write stages for unit testing and code compilation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b3AwJft3Pq5Io8BSkl0d-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b3AwJft3Pq5Io8BSkl0d-13" target="b3AwJft3Pq5Io8BSkl0d-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b3AwJft3Pq5Io8BSkl0d-13" value="Test Cases and code compilation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b3AwJft3Pq5Io8BSkl0d-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b3AwJft3Pq5Io8BSkl0d-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b3AwJft3Pq5Io8BSkl0d-15" value="SonarQube / Code quality and vulnerabilities check" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b3AwJft3Pq5Io8BSkl0d-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b3AwJft3Pq5Io8BSkl0d-16" target="b3AwJft3Pq5Io8BSkl0d-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="749.9999999999998" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b3AwJft3Pq5Io8BSkl0d-16" value="Vulnerability scan/ trivy software" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b3AwJft3Pq5Io8BSkl0d-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b3AwJft3Pq5Io8BSkl0d-19" target="b3AwJft3Pq5Io8BSkl0d-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="749.9999999999998" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b3AwJft3Pq5Io8BSkl0d-19" value="Maven/ Build the application" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="689.9999999999998" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b3AwJft3Pq5Io8BSkl0d-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b3AwJft3Pq5Io8BSkl0d-21" target="b3AwJft3Pq5Io8BSkl0d-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="749.9999999999998" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b3AwJft3Pq5Io8BSkl0d-21" value="Nexus / artifact&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="689.9999999999998" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b3AwJft3Pq5Io8BSkl0d-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b3AwJft3Pq5Io8BSkl0d-23" target="b3AwJft3Pq5Io8BSkl0d-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="749.9999999999998" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b3AwJft3Pq5Io8BSkl0d-23" value="Docker / build the docker image and tag it" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="689.9999999999998" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b3AwJft3Pq5Io8BSkl0d-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b3AwJft3Pq5Io8BSkl0d-25" target="b3AwJft3Pq5Io8BSkl0d-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="749.9999999999998" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b3AwJft3Pq5Io8BSkl0d-25" value="Trivy for vulnerability check" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="689.9999999999998" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b3AwJft3Pq5Io8BSkl0d-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b3AwJft3Pq5Io8BSkl0d-27" target="b3AwJft3Pq5Io8BSkl0d-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="749.9999999999998" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b3AwJft3Pq5Io8BSkl0d-27" value="Docker push / docker hub" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="689.9999999999998" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b3AwJft3Pq5Io8BSkl0d-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b3AwJft3Pq5Io8BSkl0d-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="649.9999999999998" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b3AwJft3Pq5Io8BSkl0d-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b3AwJft3Pq5Io8BSkl0d-29" target="b3AwJft3Pq5Io8BSkl0d-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="749.9999999999998" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b3AwJft3Pq5Io8BSkl0d-29" value="Deploy to Kubernetes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="689.9999999999998" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b3AwJft3Pq5Io8BSkl0d-32" value="Security scan by Kubernetes" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="689.9999999999998" y="910" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b3AwJft3Pq5Io8BSkl0d-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b3AwJft3Pq5Io8BSkl0d-33" target="b3AwJft3Pq5Io8BSkl0d-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="499.9999999999998" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b3AwJft3Pq5Io8BSkl0d-33" value="mail notification if pipeline is success" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b3AwJft3Pq5Io8BSkl0d-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="b3AwJft3Pq5Io8BSkl0d-35" target="b3AwJft3Pq5Io8BSkl0d-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="439.9999999999998" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b3AwJft3Pq5Io8BSkl0d-35" value="Grafana and Prometheus for monitoring" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="379.9999999999998" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b3AwJft3Pq5Io8BSkl0d-37" value="Grafana and Prometheus" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240.00000000000023" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b3AwJft3Pq5Io8BSkl0d-39" value="&lt;br&gt;Deploy the website" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="379.9999999999998" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b3AwJft3Pq5Io8BSkl0d-41" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;DEVOPS End-End Project Flow&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="480" width="380" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
