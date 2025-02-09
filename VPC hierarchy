@@ -24,69 +24,102 @@
         <mxCell id="gFEAVEMgBUqsMCRh4qec-10" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.vpc_virtual_private_cloud;" vertex="1" parent="1">
           <mxGeometry x="-189" y="-226.3" width="57" height="36.6" as="geometry" />
         </mxCell>
-        <mxCell id="gFEAVEMgBUqsMCRh4qec-12" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="gFEAVEMgBUqsMCRh4qec-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="92" y="-179" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="gFEAVEMgBUqsMCRh4qec-13" value="Public subnet" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#7AA116;fillColor=#F2F6E8;verticalAlign=top;align=left;spacingLeft=30;fontColor=#248814;dashed=0;" vertex="1" parent="1">
-          <mxGeometry x="90" y="-337" width="130" height="130" as="geometry" />
+          <mxGeometry x="90" y="-337" width="169" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="gFEAVEMgBUqsMCRh4qec-18" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.route_table;fillColor=#F58536;gradientColor=none;" vertex="1" parent="gFEAVEMgBUqsMCRh4qec-13">
+          <mxGeometry x="130" y="28" width="75" height="69" as="geometry" />
         </mxCell>
         <mxCell id="gFEAVEMgBUqsMCRh4qec-14" value="Private subnet" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_security_group;grStroke=0;strokeColor=#00A4A6;fillColor=#E6F6F7;verticalAlign=top;align=left;spacingLeft=30;fontColor=#147EBA;dashed=0;" vertex="1" parent="1">
-          <mxGeometry x="90" y="-193" width="130" height="130" as="geometry" />
+          <mxGeometry x="90" y="-193" width="165" height="148.99999999999997" as="geometry" />
         </mxCell>
         <mxCell id="gFEAVEMgBUqsMCRh4qec-7" value="VPC is an isolated network within a cloud provider.&lt;div&gt;It allows IP ranges and CIDR blocks&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-284" y="-166" width="376" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="gFEAVEMgBUqsMCRh4qec-15" value="A Subnet is a smaller network within VPC. Used to segment IP addresses.&lt;div&gt;A VPC has public and private subnets&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-116.5" y="-53" width="543" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="gFEAVEMgBUqsMCRh4qec-16" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.route_table;fillColor=#F58536;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="280" y="-162.5" width="75" height="69" as="geometry" />
-        </mxCell>
-        <mxCell id="gFEAVEMgBUqsMCRh4qec-18" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.route_table;fillColor=#F58536;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="277" y="-306.5" width="75" height="69" as="geometry" />
+        <mxCell id="gFEAVEMgBUqsMCRh4qec-15" value="A Subnet is a smaller network within VPC.&amp;nbsp;&lt;div&gt;Used to segment IP addresses.&lt;div&gt;A VPC has public and private subnets&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="-83" width="320" height="70" as="geometry" />
         </mxCell>
         <mxCell id="gFEAVEMgBUqsMCRh4qec-21" value="Each subnet in a VPC must be associated with a route table.&amp;nbsp;&lt;div&gt;Route tables allows the network to be routed to a specifid&lt;/div&gt;&lt;div&gt;destination.&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="105" y="-422" width="452" height="70" as="geometry" />
+          <mxGeometry x="92" y="-414" width="452" height="70" as="geometry" />
         </mxCell>
         <mxCell id="gFEAVEMgBUqsMCRh4qec-22" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="567" y="-326" width="76.5" height="93" as="geometry" />
+          <mxGeometry x="428.76" y="-315" width="76.5" height="93" as="geometry" />
         </mxCell>
-        <mxCell id="gFEAVEMgBUqsMCRh4qec-24" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="gFEAVEMgBUqsMCRh4qec-23">
+        <mxCell id="gFEAVEMgBUqsMCRh4qec-24" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.008;exitY=0.598;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="gFEAVEMgBUqsMCRh4qec-23" target="gFEAVEMgBUqsMCRh4qec-18">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="354.8062744140625" y="-274.69364166259766" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="352" y="-277" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="gFEAVEMgBUqsMCRh4qec-23" value="Security group" style="fillColor=none;strokeColor=#DD3522;verticalAlign=top;fontStyle=0;fontColor=#DD3522;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="534" y="-349" width="138.25" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="gFEAVEMgBUqsMCRh4qec-27" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="220" y="-233" as="sourcePoint" />
-            <mxPoint x="270" y="-283" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="gFEAVEMgBUqsMCRh4qec-28" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="217" y="-139.7" as="sourcePoint" />
-            <mxPoint x="279" y="-126" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="397.88" y="-344" width="138.25" height="130" as="geometry" />
         </mxCell>
         <mxCell id="gFEAVEMgBUqsMCRh4qec-29" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-76" y="-237.5" as="sourcePoint" />
-            <mxPoint x="-76" y="-343" as="targetPoint" />
+            <mxPoint x="-66" y="-243.5" as="sourcePoint" />
+            <mxPoint x="-66" y="-349" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gFEAVEMgBUqsMCRh4qec-32" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="gFEAVEMgBUqsMCRh4qec-30" target="gFEAVEMgBUqsMCRh4qec-16">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="gFEAVEMgBUqsMCRh4qec-32" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;exitX=-0.008;exitY=0.379;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="gFEAVEMgBUqsMCRh4qec-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="397.88250000000005" y="-119.06000000000007" as="sourcePoint" />
+            <mxPoint x="293.62" y="-125.00262234370861" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="gFEAVEMgBUqsMCRh4qec-30" value="Security group" style="fillColor=none;strokeColor=#DD3522;verticalAlign=top;fontStyle=0;fontColor=#DD3522;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="536.13" y="-174" width="138.25" height="130" as="geometry" />
+          <mxGeometry x="397.88" y="-174" width="138.25" height="130" as="geometry" />
         </mxCell>
         <mxCell id="gFEAVEMgBUqsMCRh4qec-31" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="565" y="-141" width="76.5" height="93" as="geometry" />
+          <mxGeometry x="428.76" y="-148" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="gFEAVEMgBUqsMCRh4qec-34" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="gFEAVEMgBUqsMCRh4qec-36" target="gFEAVEMgBUqsMCRh4qec-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="262" y="84" as="sourcePoint" />
+            <mxPoint x="204" y="-63" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="282" y="17" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gFEAVEMgBUqsMCRh4qec-42" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.436;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gFEAVEMgBUqsMCRh4qec-35" target="gFEAVEMgBUqsMCRh4qec-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-53.19366455078125" y="84" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-101" y="113" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gFEAVEMgBUqsMCRh4qec-35" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#8C4FFF;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.nat_gateway;" vertex="1" parent="1">
+          <mxGeometry x="32" y="55" width="58" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="gFEAVEMgBUqsMCRh4qec-36" value="NAT Gateway" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="53" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gFEAVEMgBUqsMCRh4qec-37" value="Allows Private subnet to access internet.&amp;nbsp;&lt;div&gt;In this case the users on internet, see the IP address&amp;nbsp;&lt;/div&gt;&lt;div&gt;of NAT gateway but not the IP of private&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-41" y="125" width="396" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gFEAVEMgBUqsMCRh4qec-41" value="Route updated to NAT&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="228" y="-35" width="180" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="gFEAVEMgBUqsMCRh4qec-16" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.route_table;fillColor=#F58536;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="220" y="-162.5" width="75" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="gFEAVEMgBUqsMCRh4qec-45" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.network_acl_access_control_list;" vertex="1" parent="1">
+          <mxGeometry x="145" y="-67" width="48.96" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="gFEAVEMgBUqsMCRh4qec-47" value="A NACL or network ACL is used as a firewall.&lt;div&gt;It is stateless. The inbound rule set to block any ip address, it&amp;nbsp;&lt;/div&gt;&lt;div&gt;doesn&#39;t apply to outbound rule.&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="262" y="55" width="454" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gFEAVEMgBUqsMCRh4qec-48" value="Sec Group is Stateful,&amp;nbsp;&lt;div&gt;any inbound rule set applies to the outbound rule too&amp;nbsp;&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="274" y="-219" width="400" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gFEAVEMgBUqsMCRh4qec-50" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.633;exitY=0.98;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="gFEAVEMgBUqsMCRh4qec-45" target="gFEAVEMgBUqsMCRh4qec-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="187" y="33" as="sourcePoint" />
+            <mxPoint x="237" y="-17" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
